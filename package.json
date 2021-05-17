@@ -1,0 +1,51 @@
+{
+  "name": "@nftags/nftags-dapp",
+  "private": false,
+  "description": "",
+  "author": "NFTags Inc.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "reinstall": "rm -rf ./node_modules && rm -f yarn.lock && yarn",
+    "clean": "gatsby clean",
+    "dev": "gatsby develop",
+    "build": "gatsby build --prefix-paths",
+    "build-experimental": "cross-env GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --prefix-paths --log-pages",
+    "clean-build": "yarn clean && yarn build",
+    "serve": "gatsby serve"
+  },
+  "dependencies": {
+    "@fontsource/gothic-a1": "^4.2.2",
+    "babel-plugin-styled-components": "^1.12.0",
+    "framer-motion": "^1.11.1",
+    "gatsby": "^3.2.1",
+    "gatsby-background-image": "^1.5.0",
+    "gatsby-image": "^3.2.0",
+    "gatsby-plugin-image": "^1.2.1",
+    "gatsby-plugin-react-helmet": "^4.2.0",
+    "gatsby-plugin-sharp": "^3.2.1",
+    "gatsby-plugin-sitemap": "^3.2.0",
+    "gatsby-plugin-styled-components": "^4.2.0",
+    "gatsby-source-filesystem": "^3.2.0",
+    "gatsby-transformer-sharp": "^3.2.0",
+    "gbimage-bridge": "^0.1.2",
+    "normalize.css": "^8.0.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^3.11.0",
+    "react-intersection-observer": "^8.31.0",
+    "react-scroll": "^1.8.2",
+    "styled-components": "^4.4.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bagseye/startup"
+  },
+  "bugs": {
+    "url": "https://github.com/bagseye/startup/issues"
+  }
+}
