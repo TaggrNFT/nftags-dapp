@@ -5814,6 +5814,17 @@ gatsby-plugin-image@^1.2.1:
     objectFitPolyfill "^2.3.0"
     prop-types "^15.7.2"
 
+gatsby-plugin-manifest@^3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-3.5.0.tgz#0c6ad80d570f1c312cb46a2dfd2f14f966e2e4a9"
+  integrity sha512-NtkjK9H0Vz3GkRj+UQM1xC0mKcaVcBsVL1odqnivN6S8erlgYJksf0WM4RnHIu2qlc1waNR8rqkLLrO9KBaDbA==
+  dependencies:
+    "@babel/runtime" "^7.12.5"
+    gatsby-core-utils "^2.5.0"
+    gatsby-plugin-utils "^1.5.0"
+    semver "^7.3.5"
+    sharp "^0.28.1"
+
 gatsby-plugin-netlify@^3.5.0:
   version "3.5.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify/-/gatsby-plugin-netlify-3.5.0.tgz#1635bdcb41e11ad2fc5e99f98fd4cd44634b0b37"
@@ -5846,6 +5857,16 @@ gatsby-plugin-react-helmet@^4.2.0:
   integrity sha512-QDddKLz2aVDVIAttdQot4S/5H+KP6yUTkZySWyNsvClPovZ+XXgsrmav/Dt0w/6dAzIJA7RXqGvFwOJRHIKncQ==
   dependencies:
     "@babel/runtime" "^7.12.5"
+
+gatsby-plugin-remove-fingerprints@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-remove-fingerprints/-/gatsby-plugin-remove-fingerprints-0.0.2.tgz#ef21a184e2f5deffe644aebd16b8d67f46a7d51b"
+  integrity sha512-af1zbr0+cr3fcjEAVAbUia/On6GJbrxoLVNZf7TxLqKzPMfMlDNXf6hDXAJy0dzxE6qrqD2oyGZpk1rOdgUQ0Q==
+
+gatsby-plugin-remove-serviceworker@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-remove-serviceworker/-/gatsby-plugin-remove-serviceworker-1.0.0.tgz#9fb433bc8bd766e14e1d3711c4ac6f051e1dff7c"
+  integrity sha1-n7QzvIvXZuFOHTcRxKxvBR4d/3w=
 
 gatsby-plugin-sharp@^3.2.1:
   version "3.5.0"
@@ -11077,7 +11098,7 @@ shallow-compare@^1.2.2:
   resolved "https://registry.yarnpkg.com/shallow-compare/-/shallow-compare-1.2.2.tgz#fa4794627bf455a47c4f56881d8a6132d581ffdb"
   integrity sha512-LUMFi+RppPlrHzbqmFnINTrazo0lPNwhcgzuAXVVcfy/mqPDrQmHAyz5bvV0gDAuRFrk804V0HpQ6u9sZ0tBeg==
 
-sharp@^0.28.0:
+sharp@^0.28.0, sharp@^0.28.1:
   version "0.28.2"
   resolved "https://registry.yarnpkg.com/sharp/-/sharp-0.28.2.tgz#31c6ebdf8ddb9b4ca3e30179e3f4a73f0c7474e4"
   integrity sha512-CdmySbsQVe/+ZM2j9zzvUfWumM0L0iHj1kpxJMFuyWvSuBULebvGCdOLb1f5vbbBrIGroX714Fx1wiWaKniz4A==

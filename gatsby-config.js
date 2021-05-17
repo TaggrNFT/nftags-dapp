@@ -29,11 +29,13 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
+    'gatsby-plugin-remove-fingerprints',
     {
       resolve: `gatsby-plugin-netlify`,
       options: {
         mergeCachingHeaders: false,
       },
     },
+    'gatsby-plugin-remove-serviceworker',
   ],
 }
