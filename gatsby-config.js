@@ -29,5 +29,11 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-netlify`,
+      options: {
+        mergeCachingHeaders: false,
+      },
+    },
   ],
 }
